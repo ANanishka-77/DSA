@@ -57,8 +57,7 @@ class Solution {
         }
         else 
         {
-             int sum= ((nums3[length / 2 - 1] )+ (nums3[length / 2]));
-             return sum/2.0;
+               return (nums3[length / 2 - 1] + nums3[length / 2])/2.0 ;
     }
 }
 }
