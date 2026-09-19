@@ -4,9 +4,9 @@ class Solution {
         char[] stack = new char[s.length()];
         int top = -1;
 
-        for (char ch : s.toCharArray()) {
-
-            // Opening bracket → push
+        for (int i=0;i<s.length();i++) {
+          char ch=s.charAt(i);
+                      // Opening bracket → push
             if (ch == '(' || ch == '{' || ch == '[') {
                 top++;
                 stack[top] = ch;
