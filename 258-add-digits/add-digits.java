@@ -8,7 +8,9 @@ class Solution {
         while(num>9)
         {
            
-            sum=num%10+num/10;
+            int d=num%10;
+            int e=num/10;
+            sum=d+e;
             num=sum;
         }
         return sum;
