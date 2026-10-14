@@ -30,6 +30,11 @@ class Solution {
             j++;
         }
 
-        return st1.toString().equals(st2.toString());
+       
+        if(st1.toString().equals(st2.toString()))
+        {
+            return true;
+        }
+        return false;
     }
 }
