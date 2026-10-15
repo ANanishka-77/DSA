@@ -19,7 +19,7 @@ class Solution {
         
 
         arr[0]=i;
-        arr[1]=maxcount;
+        arr[1]=count;
         }
 
      }   
