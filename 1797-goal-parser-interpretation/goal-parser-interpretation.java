@@ -8,7 +8,7 @@ class Solution {
             } 
             else if (command.charAt(i) == '(' && command.charAt(i + 1) == ')') {
                 result.append('o');
-                i++;
+            
             } 
             else if (command.charAt(i) == '(') {
                 result.append("al");
@@ -16,6 +16,6 @@ class Solution {
             }
         }
 
-        return result.toString();
-    }
+      return result.toString();
+}
 }
